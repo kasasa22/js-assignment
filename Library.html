@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Libtary</title>
+    <link rel="stylesheet" href="book.css">
+</head>
+<body>
+    <div class="header"><h2>Boyz Book Library</h2></div>
+    <div class="body">
+        <div class="display"></div>
+        <div id="book-form">
+            <form action="Library.php" method="post">
+                <input type="text" id="book-title" name="book" placeholder="Book Title ">
+                <input type="text" id="author" name="author" placeholder="Author Name">
+                <input type="text" id = "year" name="year" placeholder="Year">
+                <input type="submit" name="submit" value="Add Book">
+            </form>
+    </div>
+    <div id="booklist">
+
+    </div>
+    <script src="book.js"></script>
+</body>
+</html>
